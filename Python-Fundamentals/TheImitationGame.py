@@ -46,3 +46,13 @@ while break_flag:
         break_flag = False
 
 print(f"The decrypted message is: {''.join(encrypted_message)}")
+
+# zzHe
+
+# ChangeAll|z|l
+
+# Insert|2|o
+
+# Move|3
+
+# Decode
