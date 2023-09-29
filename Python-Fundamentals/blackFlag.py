@@ -25,10 +25,9 @@ for i in range(1, days + 1):
     totalPlunder += dailyPlunder
     if i % 3 == 0:
         totalPlunder += dailyPlunder * 0.5
-        
+
     if i % 5 == 0:
         totalPlunder -= totalPlunder * 0.3
-
 
 if totalPlunder >= expectedPlunder:
     print(f"Ahoy! {totalPlunder:.2f} plunder gained.")
