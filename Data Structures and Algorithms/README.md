@@ -27,9 +27,9 @@ The formula for measuring performance growth:
 - **O(log(n))**: Logarithmic - Work increases by a constant when dataset size doubles.
 - **O(nlog(n))**: Log Linear - Common in algorithms that divide dataset in each iteration (e.g., many sorting algorithms).
 
-![Screenshot from 2023-10-20 10-01-48.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%20from%202023-10-20%2010-01-48.png)
-![Screenshot from 2023-10-20 10-01-17.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%20from%202023-10-20%2010-01-17.png)
-![Screenshot from 2023-10-20 09-58-41.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%20from%202023-10-20%2009-58-41.png)
+![image1.png](../Data Structures and Algorithms/images/image1.png)
+![image2.png](../Data Structures and Algorithms/images/image2.png)
+![image3.png](../Data Structures and Algorithms/images/image3.png)
 
 #### Performance From Fastest to Slowest:
 
