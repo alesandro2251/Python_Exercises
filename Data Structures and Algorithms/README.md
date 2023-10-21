@@ -1,4 +1,5 @@
 # Data Structures and Algorithms in Python
+Credits: https://www.w3schools.com/python/ and https://www.youtube.com/playlist?list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12
 
 Data Structures are the building blocks or raw materials for software programs.
 
@@ -27,9 +28,9 @@ The formula for measuring performance growth:
 - **O(log(n))**: Logarithmic - Work increases by a constant when dataset size doubles.
 - **O(nlog(n))**: Log Linear - Common in algorithms that divide dataset in each iteration (e.g., many sorting algorithms).
 
-![image1.png](../Data Structures and Algorithms/images/image1.png)
-![image2.png](../Data Structures and Algorithms/images/image2.png)
-![image3.png](../Data Structures and Algorithms/images/image3.png)
+![image1.png](./images/image1.png)
+![image2.png](./images/image2.png)
+![image3.png](./images/image3.png)
 
 #### Performance From Fastest to Slowest:
 
