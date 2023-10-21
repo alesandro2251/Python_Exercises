@@ -64,4 +64,14 @@ Lists can store elements like numbers, text, and more complex objects.
 - `clear()`: Empty the list.
 - `sort()`: Sort the list. For descending order, use `sort(reverse=True)`.
 
+## 4. Linked List
+ 
+![image4.png](./images/image4.png)
+
+ Linked list has two main benefits over an array:
+ - don't need to pre-allocate space
+ - easier insertion
+ 
+![image5.png](./images/image5.png)
+
 
