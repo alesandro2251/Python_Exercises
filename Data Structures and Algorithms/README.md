@@ -74,4 +74,32 @@ Lists can store elements like numbers, text, and more complex objects.
  
 ![image5.png](./images/image5.png)
 
+## 5. Hash Table:
+ 
+ Hash map or hash table is a very popular data structure. It allows to store key, value pairs and using key you can locate a value in **O(1)** or constant time
+ 
+ # 5.1 Collision Handling:
+ Methods to avoid collisions:
+     - `Chaining`: make each cell of hash table point to a linked list of records that have same hash function value.
+     - `Linear Probing`: looking for a free place in hash table to store the value.
+ 
+ ## 6. Stack:
+ LIFO ( Last in first out ) or FIFO(First in first out) data structure where we keep on pushing elements and when we say pop it removes the last pushed element. It is dynamic array(list)
+ 
+ Push/Pop element: **0(1)**
+ Search element by value: **O(n)**
+ 
+ ---- Use cases for stack:
+   - Function calling
+   - Undo functionality
+ 
+  
+ - `deque()`: preferred over a list in the cases where we need quicker append and pop operations from both the ends of the container, as deque provides an **0(1)** time complexity for append and pop operations as compared to a list that provides **O(n)** time complexity.
+- `empty()`: Returns whether the stack is empty - **0(1)**
+- `size()` : Returns the size of the stack - **0(1)**
+- `top() / peek()` : Returns a reference to the topmost element of the stack - **0(1)**
+- `push(a)` : Inserts the element ‘a’ at the top of the stack - **0(1)**
+- `pop()` : Deletes the topmost element of the stack - **0(1)**
+ 
+
 
