@@ -73,6 +73,37 @@ Lists can store elements like numbers, text, and more complex objects.
  - easier insertion
  
 ![image5.png](./images/image5.png)
+## 5. Hash Table:
+ 
+ Hash map or hash table is a very popular data structure. It allows to store key, value pairs and using key you can locate a value in **O(1)** or constant time
+ 
+ # 5.1 Collision Handling:
+ Methods to avoid collisions:
+     - `Chaining`: make each cell of hash table point to a linked list of records that have same hash function value.
+     - `Linear Probing`: looking for a free place in hash table to store the value.
+ 
+ ## 6. Stack:
+ LIFO ( Last in first out ) or FIFO(First in first out) data structure where we keep on pushing elements and when we say pop it removes the last pushed element. It is dynamic array(list)
+ 
+ Push/Pop element: **0(1)**
+ Search element by value: **O(n)**
+ 
+ ---- Use cases for stack:
+   - Function calling
+   - Undo functionality
+ 
+  
+- `deque()`: preferred over a list in the cases where we need quicker append and pop operations from both the ends of the container, as deque provides an **0(1)** time complexity for append and pop operations as compared to a list that provides **O(n)** time complexity.
+- `empty()`: Returns whether the stack is empty - **0(1)**
+- `size()` : Returns the size of the stack - **0(1)**
+- `top() / peek()` : Returns a reference to the topmost element of the stack - **0(1)**
+- `push(a)` : Inserts the element ‘a’ at the top of the stack - **0(1)**
+- `pop()` : Deletes the topmost element of the stack - **0(1)**
+ 
+
+## 7. Queue 
+ 
+ Queue is a linear data structure that stores items in First in First Out **(FIFO)**.
 
 ## 5. Hash Table:
  
@@ -103,3 +134,19 @@ Lists can store elements like numbers, text, and more complex objects.
  
 
 
+ - `Enqueue`: Adds an item to the queue. If the queue is full, then it is said to be an Overflow condition – Time Complexity : **O(1)**
+ - `Dequeue`: Removes an item from the queue. The items are popped in the same order in which they are pushed. If the queue is empty, then it is said to be an Underflow condition – Time Complexity : **O(1)**
+ - `Front`: Get the front item from queue – Time Complexity : **O(1)**
+ - `Rear`: Get the last item from queue – Time Complexity : **O(1)**
+
+![image6.png](./images/image6.png)
+
+
+- `maxsize` – Number of items allowed in the queue.
+- `empty()` – Return True if the queue is empty, False otherwise. 
+- `full()` – Return True if there are maxsize items in the queue. If the queue was initialized with maxsize=0 (the default), then full() never returns True.
+- `get()` – Remove and return an item from the queue. If queue is empty, wait until an item is available.
+- `get_nowait()` – Return an item if one is immediately available, else raise QueueEmpty.
+- `put(item)` – Put an item into the queue. If the queue is full, wait until a free slot is available before adding the item.
+- `put_nowait(item)` – Put an item into the queue without blocking. If no free slot is immediately available, raise QueueFull.
+- `qsize()` – Return the number of items in the queue.
