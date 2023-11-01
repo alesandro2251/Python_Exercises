@@ -61,6 +61,21 @@ def get_doctor_details(doctor_id):
         print('Salary: ' + str(i[4]))
         print('Experience: ' + str(i[5]))
 
+def get_salary_doctors_list(salary):
+    mycursor.execute(
+        f"SELECT Doctor_Name, Hospital_Id, Speciality, Experience FROM Doctor WHERE Salary = {salary}")
+    records = mycursor.fetchall()
+    for i in records:
+        print('-------------')
+        print('Doctor Name: ' + i[0])
+        print('Speciality: ' + i[2])
+        print('Work at: ')
+        get_hospital_details(i[1])
+        print('Experience: ' + str(i[3]))
+
+
 
 get_hospital_details(2)
 get_doctor_details(105)
+get_salary_doctors_list(30000)
+
